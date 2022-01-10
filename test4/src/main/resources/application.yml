@@ -1,8 +1,11 @@
 dubbo:
   application:
     name: service
-  registry:
-    address: zookeeper://192.168.2.197:2181|zookeeper://192.168.2.211:2181
+  registries:
+    registry1:
+      address: zookeeper://192.168.31.152:2181
+    registry2:
+      address: zookeeper://192.168.31.225:2181
   protocol:
     name: dubbo
     port: 20882
