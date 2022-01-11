@@ -9,4 +9,5 @@ public interface UserService  {
      * @return
      */
     String getUser();
+    String getUserById();
 }

@@ -16,4 +16,9 @@ public class UserServiceImpl implements UserService {
     public String getUser() {
         return "zhangsan";
     }
+
+    @Override
+    public String getUserById() {
+        return null;
+    }
 }
